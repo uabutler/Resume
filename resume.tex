@@ -1,0 +1,93 @@
+\documentclass[10pt,letterpaper,ragged2e]{altacv}
+
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+\def\CC{{C\nolinebreak\hspace{-.05em}\raisebox{.05ex}{+\hspace{-0.075ex}+}}}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{Ulysses Butler}
+\tagline{Major in Computer Science}
+\personalinfo{
+\email{uabutler@live.com}
+\phone{(660) 956 3375}
+\mailaddress{1919 Main Street}
+\location{Unionville, MO 63565}
+%\github{github.com/uabutler}
+%\homepage{uabutler.com}
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\AtBeginEnvironment{itemize}{\small}
+
+\cvsection[page1sidebar]{Education}
+
+\cvevent{Truman State University \hfill \small{GPA: 4.00/4.00}}{}{August 2017 -- Present}{Kirksville, MO}
+\begin{itemize}
+\item Class of 2021
+\item Major in Computer Science
+\item Minor in Mathematics
+\end{itemize}
+
+\cvsection{Relevant Coursework}
+\textbf{CS 455} \textit{Computer Security Fundamentals (IP)} \hfill Fall 2019\vspace{0.5ex}\\
+\textbf{MATH 357} \textit{Linear Algebra (IP)} \hfill Fall 2019\vspace{0.5ex}\\
+\textbf{CS 310} \textit{Data Structures and Algorithms} \hfill Spring 2019\vspace{0.5ex}\\
+\textbf{CS 330} \textit{Computer Architecture} \hfill Spring 2019\\
+\hspace{1em}Taught using MIPS architecture\vspace{0.5ex}\\
+\textbf{MATH 200} \textit{Foundations of Mathematics} \hfill Spring 2019\\
+\hspace{1em}A transition from computational to proof-based math\vspace{0.5ex}\\
+\textbf{CS 250} \textit{Systems Programming} \hfill Fall 2018\\
+\hspace{1em}Introduction to C and \CC\vspace{0.5ex}\\
+\textbf{CS 260} \textit{Object-Oriented Design} \hfill Fall 2018\\
+\hspace{1em}Network and concurrent programming\vspace{0.5ex}\\
+\textbf{CS 291} \textit{Models of Computation} \hfill Fall 2018\vspace{0.5ex}\\
+\textbf{CS 191} \textit{Computing Structures} \hfill Spring 2018\vspace{0.5ex}\\
+\textbf{MATH 198, 263, 264} \textit{Calculus I -- III} \hfill Fall 2017 -- Fall 2018\vspace{0.5ex}\\
+\textbf{CS 180 \& 181} \textit{CS Fundamentals} \hfill Fall 2017 \& Spring 2018\\
+\hspace{1em}Introduction to Ada and Java programming languages
+
+\cvsection{Work Experience}
+
+\textbf{Research Experience for Undergraduates} \hfill Summer 2019\\
+\textit{Washington University in St. Louis}\\
+\hspace{1em}Preprocessing of large data sets\\
+\hspace{1em}Worked in a team, helped train colleagues\\
+ \hspace{1em}Introduced to OpenCL\\
+
+\textbf{Math Department} \hfill Fall 2018 -- Present\vspace{-2pt}\\
+\textit{Truman State University}\\
+\hspace{1em}Set up and maintained Debian systems\\
+
+\textbf{HyVee} \hfill Fall 2016 -- Winter 2018\vspace{-2pt}\\
+\textit{Unionville, MO \& Kirksville, MO}\\
+\hspace{1em}Primarily worked as a cashier\\
+
+\textbf{One-to-One Pharmacy} \hfill Winter 2017\vspace{-2pt}\\
+\textit{Unionville, MO}\\
+\hspace{1em}Pharmaceutical technician\\
+
+\textbf{Putnam County R1} \hfill Fall 2016 -- Spring 2017\vspace{-2pt}\\
+\textit{Unionville, MO}\\
+\hspace{1em}Assisted in managing school network\\
+\clearpage
+
+\nocite{*}
+\end{document}
